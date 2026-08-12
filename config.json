@@ -1,0 +1,14 @@
+{
+  "board_name": "가천대 학사공지",
+  "board_url": "https://www.gachon.ac.kr/kor/3104/subview.do",
+  "selectors": {
+    "row": "form > div.scroll-table > table.board-table.horizon1 > tbody > tr",
+    "title": "",
+    "link": "",
+    "date": ""
+  },
+  "check_interval_minutes": 10,
+  "channel_id": 0,
+  "max_notify_per_check": 5,
+  "keywords": []
+}
