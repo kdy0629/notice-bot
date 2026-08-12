@@ -1,6 +1,6 @@
 {
-  "board_name": "가천대 학사공지",
-  "board_url": "https://www.gachon.ac.kr/kor/3104/subview.do",
+  "board_name": "가천대 장학공지",
+  "board_url": "https://www.gachon.ac.kr/kor/1146/subview.do",
   "selectors": {
     "row": "form > div.scroll-table > table.board-table.horizon1 > tbody > tr",
     "title": "",
