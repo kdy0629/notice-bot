@@ -20,6 +20,11 @@ jobs:
     steps:
       - name: 저장소 가져오기
         uses: actions/checkout@v4
+        with:
+          # 기본값은 "실행이 요청된 시점의 커밋"이라, 실행이 밀리면
+          # 직전 실행이 저장한 seen.json 이 없는 옛 상태를 받게 된다.
+          # 그러면 이미 알린 공지를 다시 알리므로 항상 최신 main 을 받는다.
+          ref: main
 
       - name: 파이썬 준비
         uses: actions/setup-python@v5
