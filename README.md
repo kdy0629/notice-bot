@@ -75,8 +75,8 @@ Secret: (1단계에서 복사한 웹후크 URL)
 
 ```json
 {
-  "board_name": "가천대 학사공지",
-  "board_url": "https://www.gachon.ac.kr/kor/3104/subview.do",
+  "board_name": "가천대 장학공지",
+  "board_url": "https://www.gachon.ac.kr/kor/1146/subview.do",
   "selectors": { "row": "form > div.scroll-table > table.board-table.horizon1 > tbody > tr" },
   "check_interval_minutes": 10,
   "max_notify_per_check": 5,
